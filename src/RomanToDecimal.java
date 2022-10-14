@@ -1,9 +1,11 @@
 /**
- *
+ * Roman numeral to decimal converter
+ * @version 10.13.2022
+ * @author Srao2020
  */
 public class RomanToDecimal {
     /**
-     *
+     * Calculates the value of an input
      * @param roman
      * @return
      */
@@ -46,9 +48,9 @@ public class RomanToDecimal {
             sum -= 200;
         return sum;
     }
-
            /**
-            *
+            * Main method for RomanToDecimal
+            * @param args command line arguments, if needed
             */
     public static void main(String[] args) {
         for(String roman : args) {   // for-each loop
